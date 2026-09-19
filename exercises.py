@@ -215,8 +215,12 @@ def merge_settings(
 
     Overrides must win.
     """
-    # TODO: dictionary unpacking
-    raise NotImplementedError
+    # defaults.update(overrides)
+    # return defaults
+    return {**defaults, **overrides}
+
+
+
 
 
 # ============================================================
