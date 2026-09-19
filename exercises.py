@@ -175,8 +175,7 @@ def combine(
     scores: Iterable[int],
 ) -> list[tuple[str, int]]:
     """Combine names and scores."""
-    # TODO: zip
-    raise NotImplementedError
+    return list(zip(names, scores))
 
 
 # Exercise 10
