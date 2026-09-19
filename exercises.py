@@ -110,8 +110,7 @@ def word_lengths(words: list[str]) -> dict[str, int]:
 # Exercise 4
 def swap(pair: tuple[str, int]) -> tuple[int, str]:
     """Swap the two tuple values."""
-    # TODO: use unpacking
-    raise NotImplementedError
+    return (pair[1], pair[0])
 
 
 # ============================================================
