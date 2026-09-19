@@ -98,14 +98,13 @@ def even_numbers(numbers: list[int]) -> list[int]:
 def unique_words(words: list[str]) -> set[str]:
     """Return unique lowercase words."""
     return set(word.lower() for word in words)
-    
 
 
 # Exercise 3
 def word_lengths(words: list[str]) -> dict[str, int]:
     """Map each word to its length."""
-    # TODO
-    raise NotImplementedError
+    return {word: len(word) for word in words}
+    
 
 
 # Exercise 4
