@@ -128,8 +128,7 @@ def swap(pair: tuple[str, int]) -> tuple[int, str]:
 # Exercise 5
 def squares(numbers: Iterable[int]) -> list[int]:
     """Return squares using a list comprehension."""
-    # TODO
-    raise NotImplementedError
+    return [x*x for x in numbers]
 
 
 # Exercise 6
