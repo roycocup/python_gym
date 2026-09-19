@@ -112,8 +112,12 @@ def swap(pair: tuple[str, int]) -> tuple[int, str]:
     """Swap the two tuple values."""
     #return (pair[1], pair[0])
     #return tuple(reversed(pair))
-    a,b = pair
-    return b,a
+    #a,b = pair
+    #return b,a
+    return pair[::-1]
+
+
+## Todo - refresh regarding array manipulation
 
 
 # ============================================================
