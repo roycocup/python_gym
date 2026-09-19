@@ -166,12 +166,7 @@ def numbered(items: Iterable[str]) -> list[tuple[int, str]]:
     Return:
         [(1, "a"), (2, "b"), ...]
     """
-    flist = []
-    inc = 1
-    for x in items: 
-        flist.append((inc, str(x)))
-        inc += 1
-    return flist
+    return [(i,a) for i,a in enumerate(items, start=1)]
 
 
 # Exercise 9
