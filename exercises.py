@@ -97,8 +97,8 @@ def even_numbers(numbers: list[int]) -> list[int]:
 # Exercise 2
 def unique_words(words: list[str]) -> set[str]:
     """Return unique lowercase words."""
-    # TODO
-    raise NotImplementedError
+    return set(word.lower() for word in words)
+    
 
 
 # Exercise 3
