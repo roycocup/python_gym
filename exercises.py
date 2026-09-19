@@ -110,7 +110,10 @@ def word_lengths(words: list[str]) -> dict[str, int]:
 # Exercise 4
 def swap(pair: tuple[str, int]) -> tuple[int, str]:
     """Swap the two tuple values."""
-    return (pair[1], pair[0])
+    #return (pair[1], pair[0])
+    #return tuple(reversed(pair))
+    a,b = pair
+    return b,a
 
 
 # ============================================================
