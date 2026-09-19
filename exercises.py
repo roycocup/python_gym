@@ -144,9 +144,7 @@ def active_usernames(users: list[dict[str, object]]) -> list[str]:
 
         -> ["alice"]
     """
-    # TODO
-    raise NotImplementedError
-
+    return [user['name'].lower() for user in users if user['active']]
 
 # Exercise 7
 def invert(mapping: dict[str, int]) -> dict[int, str]:
