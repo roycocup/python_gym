@@ -149,8 +149,10 @@ def active_usernames(users: list[dict[str, object]]) -> list[str]:
 # Exercise 7
 def invert(mapping: dict[str, int]) -> dict[int, str]:
     """Invert keys and values using a dict comprehension."""
-    # TODO
-    raise NotImplementedError
+    # return {b:a for a,b in mapping.items()}
+    return dict(zip(mapping.values(), mapping.keys()))
+
+    ## TODO - remember .values(), .keys() and .items()
 
 
 # ============================================================
