@@ -90,8 +90,8 @@ from typing import (
 # Exercise 1
 def even_numbers(numbers: list[int]) -> list[int]:
     """Return only even numbers."""
-    # TODO
-    raise NotImplementedError
+    even = [i for i in numbers if i % 2 == 0]
+    return even 
 
 
 # Exercise 2
