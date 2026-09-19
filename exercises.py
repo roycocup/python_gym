@@ -201,8 +201,8 @@ def first_middle_last(
 
     Use starred unpacking.
     """
-    # TODO
-    raise NotImplementedError
+    first, *mid, last = values
+    return first, mid, last
 
 
 # Exercise 12
