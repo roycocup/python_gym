@@ -184,8 +184,7 @@ def score_dictionary(
     scores: Iterable[int],
 ) -> dict[str, int]:
     """Combine two iterables into a dictionary."""
-    # TODO
-    raise NotImplementedError
+    return dict(zip(names,scores))
 
 
 # ============================================================
