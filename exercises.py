@@ -117,7 +117,7 @@ def swap(pair: tuple[str, int]) -> tuple[int, str]:
     return pair[::-1]
 
 
-## Todo - refresh regarding array manipulation
+## TODO - refresh regarding array manipulation
 
 
 # ============================================================
@@ -166,8 +166,12 @@ def numbered(items: Iterable[str]) -> list[tuple[int, str]]:
     Return:
         [(1, "a"), (2, "b"), ...]
     """
-    # TODO: enumerate
-    raise NotImplementedError
+    flist = []
+    inc = 1
+    for x in items: 
+        flist.append((inc, str(x)))
+        inc += 1
+    return flist
 
 
 # Exercise 9
