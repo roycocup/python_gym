@@ -1,5 +1,5 @@
 """
-PYTHON GYM — MadeWithLove Pair Programming Refresher
+PYTHON GYM — Python Programming Refresher
 
 Goal:
     Implement every TODO until:

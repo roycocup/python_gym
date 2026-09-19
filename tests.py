@@ -19,7 +19,7 @@ import time
 
 import pytest
 
-from python_gym import (
+from exercises import (
     # Collections / comprehensions
     even_numbers,
     unique_words,
