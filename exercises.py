@@ -254,8 +254,7 @@ def oldest_three(people: list[Person]) -> list[Person]:
 # Exercise 15
 def total(*numbers: float) -> float:
     """Return the total of arbitrary positional arguments."""
-    # TODO
-    raise NotImplementedError
+    return len(numbers)
 
 
 # Exercise 16
