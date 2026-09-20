@@ -220,9 +220,6 @@ def merge_settings(
     return {**defaults, **overrides}
 
 
-
-
-
 # ============================================================
 # SECTION 5 — SORTING / KEY FUNCTIONS
 # ============================================================
@@ -237,15 +234,16 @@ class Person:
 # Exercise 13
 def sort_people_by_age(people: list[Person]) -> list[Person]:
     """Return a new list sorted by age."""
-    # TODO: sorted(..., key=...)
-    raise NotImplementedError
+    #return sorted(people, key=lambda person: person.name) 
+    people.sort(key=lambda person: person.age)
+    return people
 
 
 # Exercise 14
 def oldest_three(people: list[Person]) -> list[Person]:
     """Return the three oldest people, oldest first."""
-    # TODO
-    raise NotImplementedError
+    newpeeps = sorted(people, key=lambda person: person.age, reverse=True)
+    return newpeeps[:3]
 
 
 # ============================================================
